@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tk-rich-text-editor"
+version = "0.1.0"
+description = "Tkinter rich-text editor with JSON .rte format"
+readme = "README.md"
+license = { text = "LGPL-3.0-or-later" }
+requires-python = ">=3.8"
+authors = [{ name = "oldrepublicwizard" }]
+dependencies = [
+
+]
+
+[project.urls]
+Homepage = "https://github.com/oldrepublicwizard/tk-rich-text-editor"
+Repository = "https://github.com/oldrepublicwizard/tk-rich-text-editor"
+
+[tool.setuptools.packages.find]
+where = ["src"]
