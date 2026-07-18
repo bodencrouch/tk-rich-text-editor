@@ -1,16 +1,12 @@
 # tk-rich-text-editor
 
-Standalone Tkinter rich-text editor (JSON `.rte` document format).
+A Tkinter rich-text editor widget. Paste it into a window and edit.
 
 ## Install
 
 ```bash
-pip install -e .
+pip install git+https://github.com/oldrepublicwizard/tk-rich-text-editor.git
 ```
-
-## Origin
-
-Extracted from PyKotor `utility/gui/tkinter/rte_editor.py`.
 
 ## License
 
