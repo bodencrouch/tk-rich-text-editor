@@ -13,3 +13,9 @@ venv/
 .ruff_cache/
 *.log
 .DS_Store
+.claude/
+.cursor/
+.mission/
+.remember/
+AGENTS.md
+CLAUDE.md
